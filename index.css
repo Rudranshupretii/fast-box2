@@ -1,0 +1,354 @@
+html,body{
+    width: 100%;
+    display: contents;
+    height: 100%;
+}
+
+body{
+    overflow: hidden;
+    background-color: #ececec;
+}
+#big{
+    width: 100%;
+    height: 100vh;
+    background-color: #fff;
+}
+
+nav{
+    display: contents;
+    justify-content: space-between;
+    text-align: center;
+    width: 80%;
+    height: 80px;
+    /* background-color: #dadada; */
+    margin: 0 auto;
+}
+
+nav img{  
+    position: absolute;
+    width: 110px;
+    width: 210px;
+    height: 50px;
+   padding-top: 29px;
+    margin-left: 50px;
+    
+    
+
+}
+
+nav #links{
+     position: relative;
+    padding-left: 90px;
+    align-items: center; 
+
+    
+}
+
+nav #links a{ display: inline-flex;
+    font-family: "red hat text" ;
+    font-size: 11px;
+    font-weight: 600;
+    text-decoration: none;
+    color: rgb(110, 110, 110);
+    letter-spacing: 4px;
+}
+
+
+nav #links a:nth-child(1){ 
+    color: rgb(0, 0, 0); 
+    font-weight: 700;
+}
+.navbgimage{
+    position: absolute;
+    z-index: -1;
+    height: 190px;
+    width: 400px;
+}
+.Signin{ position: absolute;
+    padding: 50px;
+    float: right;
+    font-family: "red hat text" ;
+    position: relative;
+     padding-right: 50px; 
+    
+
+}
+nav #links button:nth-child(1){ 
+    border-style: none;}
+nav #links button:nth-child(2){ 
+    border-radius: 5px;
+    border: 2px solid  #3CBD96;
+    background:#3CBD96;
+    color: rgb(255, 255, 255);
+}
+#sections{
+    display: flex;
+    width: 100%;
+    height: calc(100% - 80px);
+}
+
+#left{ position: relative;
+    width: 50%;
+    height: 100%;
+    padding: 80px;
+}
+#left>h1{
+
+    font-family: "Anybody";
+    color: #204945;
+    font-size: 60px;
+
+    font-weight: 700;
+}
+#left>h4{
+    font-family: "Rrd Hat Text";
+    font-size: 16px;
+    font-weight: 700;
+    color:#777E90;
+    ;
+}
+#right{
+    width: 50%;
+    height: 100%;
+}
+#right>img{
+     float: right;
+    width: 460px;
+    padding-top: 40px;
+}
+#left form input{
+     height: 50px; 
+     
+}
+ #left form input:nth-child(1){
+    border: none;
+} 
+ #left form input:nth-child(2){ 
+    text-align: center;
+    width: 120px;
+    border-radius: 5px;
+    background-color: #3CBD96;
+    border: 2px solid  #3CBD96;
+    color: #ffffff;
+} 
+#websitelogo,a,image{
+    height: 30px;
+     padding-left:50px;
+     display: inline-flex;
+     padding-top:50px;
+
+}
+
+
+
+#sections2{   padding-top: 100px;
+    height: 100px;
+    width: 100%;
+display: flex;
+}
+
+#left2{  
+padding-left: 300px;
+height: 100px;
+width: 100%;
+font-family: "Anybody";
+font-weight: 700;
+font-size: 40x;
+width: 50%;
+color: #204945;
+
+}
+#right2{ height: 100px;
+    font-family: "Red hat Text";
+    font-family: "Anybody";
+    width: 100%;
+
+    color: #777E90;
+} 
+#table1{  height: 300px;
+    width: 100%;
+    
+    padding-top: 150px;
+
+    
+}    
+#table,table{
+    padding-right: 150px;
+}
+#table1,tr>td{
+    text-align: center;
+    padding-left: 10px;
+    align-items: center;
+}
+ .Steps{ 
+    font-family: "Poppins";
+    color:#777E90 ;
+    font-size: 15px;
+
+ }
+ .works{
+    font-family: "anybody";
+    size: 20px;
+    font-weight: 700;
+ }
+ .contant{ 
+    color: #777E90;
+    font-weight: 400;
+    font-size: 12px;
+
+ }
+
+ 
+ #sections3{ 
+    padding-top: 100px;
+height: 50%;
+width: 100%;}
+
+ #Left3{ height: 100px;float: left;
+    width: 50%;
+ 
+ }
+ #Left3>img{ height: 250px;
+padding-left: 100px;}
+ #right3{ float:right;
+
+     height: 100px;
+    width: 50%;
+     font-family: "Red hat Text";
+     font-family: "Anybody";
+     
+     color: #777E90;
+ } 
+ #right3>h2{ color:#204945;
+    font-weight: 700;
+font-family: "Anybody";}
+
+
+ .learnmore>button{ border-radius: 5px;
+    border: 2px solid  #3CBD96;
+    background:#3CBD96;
+    color: rgb(255, 255, 255);
+    background-color:#3CBD96 ;
+    font-family: "Poppins";
+}
+#sections4{ 
+    margin-top: 30px;
+    display: inline-flex;
+    height: 30%;
+    padding-left: 100px;
+    width: 60%;}
+    
+ #right4{  font-size: 20px;
+         
+         height: 30%;
+        padding-left: 300px;
+        color: #204945; 
+        width: 100%;
+     
+     }
+    
+ #Left4{ 
+    font-size: 12px;
+    height: 30%;
+    width: 100%;
+     font-family: "Red hat Text";
+    font-family: "Anybody";
+     color: #777E90;
+     } 
+#table2{ 
+     height: 40%;
+     display: inline-block;
+    
+width: 100%;
+align-items: center;
+}
+
+
+#table2,table,tr>td{padding-left: 90px;
+font-size: 15px;}
+#table2,table,tr>th{
+    font-size:
+     20px;color:#23262F; 
+    font-weight: 700;
+    
+    
+}
+#table2+tr,th>img{ padding-right: 20px;}
+#table2,tr>td{ font-size: 12px; 
+color: #777E90;}
+#table2+table>tr,td,th{ padding-right: 90px;}
+
+#sections5{  background-color: #E3F9E7;
+padding-top: 30px;
+
+
+    height: 100%;
+    width: 100%;}
+    
+#Left5{
+    padding-left: 100px;  
+     font-size: 20px;
+    height: 100%;
+        color: #204945; 
+        width: 50%;
+     
+     }
+
+#Left5>img{height: 400px;
+width: 300px;}
+    
+ #right5{ 
+    
+    float: right;
+    height: 100%;
+    width: 50%;
+     
+     } 
+
+
+    #right5>form{  
+        padding-top: 200px;
+        padding-left: 150px;
+        height: 100%;
+        width: 100%;
+        font-size: 20px;
+        font-family: "Anybody";
+        font-weight: 700;
+    
+         color:#23262F ;}
+
+
+
+
+         #sections6{ 
+            margin-top: 30px;
+            height: 30%;
+
+            width: 100%;}
+            
+         #right6{  font-size: 20px;
+            
+                 
+                 height: 30%;float: right;
+                
+                color: #204945; 
+                width: 60;
+             
+             }
+
+            #right6>img{ height: 400px;
+                width: 600px;
+            }
+            
+         #Left6{ padding-left: 40px;
+            
+            font-size: 12px;
+            height: 30%;
+            width: 40%;
+             font-family: "Red hat Text";
+            font-family: "Anybody";
+             color: #777E90;
+             } 
+
+        #Left6>h2{color: #204945;
+        font-size: 30px;}
